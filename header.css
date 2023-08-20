@@ -1,0 +1,41 @@
+.top-header {
+  background: #523737;
+  color: white;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+.top-header .header_bar_top {
+  font-size: 12px;
+  padding: 5px;
+  display: flex;
+  justify-content: space-between;
+}
+.top-header .header_bar_bottom {
+  padding: 0px 10px 15px 10px;
+
+  display: flex;
+  justify-content: space-between;
+}
+.top-header .header_bar__column {
+  width: 33%;
+}
+.number_of_friends {
+  color: yellow;
+}
+.friends-list .search_bar {
+  position: relative;
+}
+.my_profile {
+  margin: 5px 0px 0px 10px;
+  display: flex;
+  align-items: center;
+}
+.my_profile .my_name {
+  margin-left: 10px;
+}
+.my_profile #profile_pic {
+  width: 40px;
+  border-radius: 50%;
+}
