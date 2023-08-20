@@ -1,10 +1,8 @@
 .top-header {
   background: #523737;
   color: white;
-  width: 100%;
-  position: fixed;
-  top: 0;
-  left: 0;
+  width: auto;
+  margin: -8px -8px 0px -8px;
 }
 .top-header .header_bar_top {
   font-size: 12px;
@@ -14,7 +12,6 @@
 }
 .top-header .header_bar_bottom {
   padding: 0px 10px 15px 10px;
-
   display: flex;
   justify-content: space-between;
 }
@@ -26,35 +23,4 @@
 }
 .number_of_friends {
   color: yellow;
-}
-.search_bar {
-  position: relative;
-}
-.search_bar i {
-  position: relative;
-  top: 2px;
-  left: 60px;
-  color: lightcoral;
-}
-.search_bar input {
-  padding: 5px 7px;
-  margin: 10px 0px 0px 10px;
-  width: 85%;
-  text-align: center;
-  background-color: #f1f2f3;
-  border: 0;
-  border-radius: 8px;
-  box-sizing: border-box;
-}
-.my_profile {
-  margin: 10px 0px 0px 10px;
-  display: flex;
-  align-items: center;
-}
-.my_profile .my_name {
-  margin-left: 10px;
-}
-.my_profile #profile_pic {
-  width: 40px;
-  border-radius: 50%;
 }

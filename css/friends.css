@@ -1,7 +1,6 @@
 .search_bar i {
   position: relative;
-  top: 2px;
-  left: 60px;
+  left: 50px;
   color: lightcoral;
 }
 .search_bar input {
