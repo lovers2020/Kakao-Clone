@@ -1,25 +1,29 @@
+body {
+  padding-top: 40px;
+}
 .top-header {
   background: #523737;
   color: white;
-  width: auto;
-  margin: -8px -8px 0px -8px;
-}
-.top-header .header_bar_top {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
   font-size: 12px;
-  padding: 5px;
+  z-index: 1;
+}
+.header_bar_top {
+  padding: 5px 15px 5px 5px;
   display: flex;
   justify-content: space-between;
 }
 .top-header .header_bar_bottom {
-  padding: 0px 10px 15px 10px;
+  font-size: 1.2em;
+  padding: 5px 20px 10px 10px;
   display: flex;
   justify-content: space-between;
 }
 .top-header .header_bar__column {
   width: 33%;
-}
-.friends-list {
-  position: relative;
 }
 .number_of_friends {
   color: yellow;
