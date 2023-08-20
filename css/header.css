@@ -2,7 +2,7 @@
   background: #523737;
   color: white;
   width: 100%;
-
+  position: fixed;
   top: 0;
   left: 0;
 }
@@ -21,6 +21,9 @@
 .top-header .header_bar__column {
   width: 33%;
 }
+.friends-list {
+  position: relative;
+}
 .number_of_friends {
   color: yellow;
 }
@@ -29,7 +32,7 @@
 }
 .search_bar i {
   position: relative;
-  top: 3px;
+  top: 2px;
   left: 60px;
   color: lightcoral;
 }
