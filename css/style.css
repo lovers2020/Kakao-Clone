@@ -1,0 +1,13 @@
+@import "reset.css";
+
+@import "friends.css";
+@import "status_bar.css";
+@import "login.css";
+@import "screen_size.css";
+:root {
+  --yellow: rgb(255, 230, 1);
+}
+
+body {
+  padding-top: 40px;
+}

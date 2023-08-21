@@ -1,39 +1,59 @@
+.header_bar {
+  background: #523737;
+  color: white;
+  font-size: 16px;
+  margin: -18px 0px 10px 0px;
+  padding: 10px 10px 10px 10px;
+  display: flex;
+  justify-content: space-between;
+}
+.header_bar .header_bar__column {
+  width: 33%;
+}
+.search_bar {
+  padding: 0px 10px 0px 10px;
+  margin-bottom: 10px;
+}
 .search_bar i {
-  position: relative;
+  position: absolute;
   left: 50px;
-  top: 26px;
+  top: 73px;
   color: lightcoral;
 }
 .search_bar input {
-  margin: 5px 0px 0px 10px;
-  padding: 5px 7px;
-  width: 95%;
+  padding: 5px 25px 5px 25px;
+  width: 100%;
   text-align: center;
   background-color: #f1f2f3;
   border: 0;
   border-radius: 8px;
   box-sizing: border-box;
 }
-.friends-list h1:nth-of-type(1) {
-  margin-top: 5px;
+.friends-list {
+  padding: 0px 10px 0px 20px;
+}
+h1 {
+  border-top: 1px solid #f1f2f3;
+  border-bottom: 1px solid #f1f2f3;
+  margin: 0px 0px 10px 0px;
   padding: 5px 0px 5px 10px;
-  border-top: 1px solid lightgrey;
-  border-bottom: 1px solid lightgray;
+
   font-size: 12px;
-  width: 100vw;
   color: lightcoral;
 }
+
+.number_of_friends {
+  color: yellow;
+}
+
 .my_profile {
-  margin: 10px 0px 0px 0px;
   display: flex;
-  padding-bottom: 10px;
   align-items: center;
 }
 .my_profile .my_name {
-  margin-left: 10px;
 }
 .my_profile #profile_pic {
-  margin-left: 10px;
   width: 40px;
   border-radius: 50%;
+  margin-right: 10px;
 }

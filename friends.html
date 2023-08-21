@@ -5,9 +5,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/css/style.css">
+
+    <link rel="stylesheet" href="css/style.css">
     <script src="https://kit.fontawesome.com/a713bd0bc0.js" crossorigin="anonymous"></script>
-    <title>Welcome to KaKaoTalk</title>
+    <title>KakaoTalk</title>
 </head>
 
 <body>
@@ -27,27 +28,36 @@
         </div>
     </div>
 
-    <header class="login-header">
-        <h1 class="welcome_kakao">Welcome to KakaoTalk</h1>
-        <p class="welcome_message">If you have a kakao Account,</p>
-        <p class="welcome_message">log in with your email or phone number.</p>
-    </header>
+    <div class="header_bar">
+        <div class="header_bar__column" style="color: lightgray; opacity: 0.5;">Manage</div>
+        <div class="header_bar__column" style="text-align: center;">Friends
+            <span class="number_of_friends">1</span>
+        </div>
+        <div class="header_bar__column" style="text-align: right;">
+            <i class="fa-solid fa-gear"></i>
+        </div>
+    </div>
 
-    <form action="friends.html" method="get" id="login-form" target="_self">
-        <input type="text" placeholder="Email or phone number">
-        <input type="password" placeholder="Password">
-        <input type="submit" value="Log In">
-        <input type="submit" value="Sign up">
-        <a href="#">Find Kakao Account or Password</a>
-    </form>
+    <div class="search_bar">
+        <i class="fa-solid fa-magnifying-glass"></i>
+        <input type="search" placeholder="Find Friends, Chats, Plus Friends">
+    </div>
+    <h1>My Profile</h1>
 
     <div class="screen-size">
         Your screen is too big...
     </div>
 
 
+    <main class="friends-list">
+        
+        <div class="my_profile">
+            <img id="profile_pic" src="pic/pic1.png" alt="Profile img">
+            <span class="my_name">Seop</span>
+        </div>
 
 
+    </main>
 
 </body>
 

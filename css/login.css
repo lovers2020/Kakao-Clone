@@ -1,0 +1,42 @@
+.login-header {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 30px 0px 80px 0px;
+}
+.welcome_kakao {
+  margin-bottom: 30px;
+  font-size: 24px;
+}
+.welcome_message {
+  color: gray;
+  font-size: 18px;
+}
+#login-form {
+  margin: 0px 30px;
+  display: flex;
+  flex-direction: column;
+}
+#login-form input {
+  font-size: 16px;
+  padding: 15px 0px;
+  margin-bottom: 25px;
+  border: none;
+  align-items: center;
+}
+#login-form input:not([type="submit"]) {
+  border-bottom: 1px solid #c1c1c1;
+  transition: border-color 0.2s ease-in-out;
+}
+#login-form input[type="submit"] {
+  background-color: var(--yellow);
+  border-radius: 5px;
+  cursor: pointer;
+}
+#login-form input[value="Sign up"] {
+  margin-top: -10px;
+}
+#login-form a {
+  font-size: 0.8em;
+  text-align: center;
+}
